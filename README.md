@@ -1,152 +1,121 @@
 # Oficina-An-lise-de-Dados
 
-[![Versão](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)](https://github.com/SeuUsuario/Oficina-An-lise-de-Dados/releases)  
-[![Issues](https://img.shields.io/github/issues/SeuUsuario/Oficina-An-lise-de-Dados?style=for-the-badge)](https://github.com/SeuUsuario/Oficina-An-lise-de-Dados/issues)  
-[![Licença](https://img.shields.io/github/license/SeuUsuario/Oficina-An-lise-de-Dados?style=for-the-badge)](./LICENSE)  
-[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&style=for-the-badge)](https://www.python.org/)  
-[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)](#)  
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&style=for-the-badge)](https://www.python.org/) 
+[![Issues](https://img.shields.io/github/issues/usuario/Oficina-An-lise-de-Dados?style=for-the-badge)](https://github.com/usuario/Oficina-An-lise-de-Dados/issues)
+[![License](https://img.shields.io/github/license/usuario/Oficina-An-lise-de-Dados?style=for-the-badge)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/usuario/Oficina-An-lise-de-Dados?style=for-the-badge)](https://github.com/usuario/Oficina-An-lise-de-Dados/commits)
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)](#)
 
 ---
 
-## Descrição do Projeto
+## Descrição
 
-A **Oficina Análise de Dados** é um repositório didático e prático criado para o ensino e aplicação de conceitos fundamentais da análise de dados. Com foco em fornecer uma experiência educativa eficiente, o projeto aborda desde o pré-processamento e limpeza de dados até a visualização gráfica e aplicação de técnicas estatísticas básicas e avançadas.
+A **Oficina-An-lise-de-Dados** é um projeto educacional e prático desenvolvido para capacitar estudantes, profissionais e entusiastas na análise de dados por meio da utilização de ferramentas modernas e acessíveis. O repositório oferece um ambiente focado no aprendizado e aplicação dos principais conceitos de tratamento, limpeza e exploração de dados, com ênfase na geração de insights significativos.
 
-Este projeto se destina a estudantes, profissionais da área de dados e entusiastas que desejam consolidar e expandir suas habilidades analíticas por meio de exemplos práticos baseados em dados reais. Seu diferencial está na organização didática dos conteúdos, permitindo fácil reprodução dos estudos e ampliação gradual do conhecimento em um ambiente controlado e acessível.
+Este projeto aborda desde o processamento inicial das informações até a criação de visualizações gráficas expressivas e a aplicação de técnicas estatísticas, demonstrando de forma didática fluxos reais de análise que facilitam a compreensão e reprodução dos métodos.
+
+O foco principal está em promover o desenvolvimento de habilidades analíticas sólidas, considerando bases de dados diversificadas, e em apoiar a formação técnica na área de ciência de dados.
 
 ---
 
 ## Funcionalidades
 
-- **Importação e tratamento de dados**: Leitura de diferentes bases de dados e aplicação de técnicas de limpeza e preparação, como remoção de valores nulos, correção de tipos e padronização de informações.
-- **Análise exploratória de dados**: Cálculo de estatísticas descritivas e identificação de tendências e padrões.
-- **Visualização de dados**: Construção de gráficos e dashboards para interpretação visual dos conjuntos analisados.
-- **Aplicação de técnicas estatísticas**: Ferramentas para análise inferencial e testes estatísticos básicos.
-- **Ambiente modular e reutilizável**: Organização do código para facilitar a extensão e reuso em novos projetos e oficinas.
+- Importação e leitura de bases de dados em formatos comuns (CSV, Excel, etc.).
+- Tratamento e limpeza de dados, incluindo tratamento de valores ausentes, padronização e transformação de variáveis.
+- Análise exploratória de dados (EDA) com geração de estatísticas descritivas.
+- Visualização gráfica de dados por meio de gráficos básicos e avançados para análise univariada e multivariada.
+- Aplicação de técnicas estatísticas básicas para identificação de padrões e tendências.
+- Estruturação modular e didática para facilitar o aprendizado e adaptação do código a diferentes bases.
 
 ---
 
 ## Tecnologias Utilizadas
 
-- **Linguagem:** Python 3.8+
-- **Bibliotecas principais:**
+- **Linguagem de Programação:** Python 3.8+
+- **Bibliotecas:** 
   - Pandas (manipulação e análise de dados)
   - NumPy (operações numéricas)
   - Matplotlib / Seaborn (visualização gráfica)
-- **Ferramentas auxiliares:**
-  - Jupyter Notebook (ambiente interativo)
-  - Git (controle de versões)
+  - Scipy / Statsmodels (estatística)
+- **Ferramentas:**
+  - Jupyter Notebook (ambiente interativo para desenvolvimento e demonstração)
+- **Padrões:** Código organizado para legibilidade e fácil manutenção
 
 ---
 
-## Estrutura de Diretórios
+## Estrutura do Projeto
 
 ```
-/Oficina-An-lise-de-Dados
-└── README.md               # Documentação do projeto e instruções
+/Oficina-An-lise-de-Dados/
+└── README.md
 ```
 
-**Descrição:**  
-Devido ao escopo atual, o projeto conta apenas com o arquivo README.md, que contém a descrição e instruções de uso. Futuramente, este espaço será expandido com scripts, notebooks e dados exemplares organizados em diretórios próprios para facilitar a navegação e modularidade.
+- `README.md`: Documentação principal do projeto com detalhes técnicos e orientações.
+  
+> Obs.: Atualmente o projeto contém somente o arquivo README, indicando estrutura inicial para documentação e futuras adições dos notebooks, scripts e dados que suportam a oficina.
 
 ---
 
 ## Instalação e Execução
 
-### Pré-requisitos
-
-- Python 3.8 ou superior instalado na máquina
-- pip instalado (gerenciador de pacotes Python)
-- Ambiente virtual recomendado (virtualenv, venv)
-
-### Passos
-
-1. Clone este repositório:  
+1. Clone este repositório:
    ```bash
-   git clone https://github.com/SeuUsuario/Oficina-An-lise-de-Dados.git
+   git clone https://github.com/usuario/Oficina-An-lise-de-Dados.git
+   ```
+2. Acesse o diretório do projeto:
+   ```bash
    cd Oficina-An-lise-de-Dados
    ```
-
-2. Crie e ative um ambiente virtual (opcional, mas recomendado):  
+3. Recomenda-se criar e ativar um ambiente virtual Python:
    ```bash
    python3 -m venv venv
-   source venv/bin/activate   # Linux/macOS
-   venv\Scripts\activate      # Windows
+   source venv/bin/activate  # Linux/macOS
+   venv\Scripts\activate     # Windows
    ```
-
-3. Instale as dependências necessárias:  
+4. Instale as dependências necessárias (exemplo, caso disponha de requirements.txt):
    ```bash
-   pip install pandas numpy matplotlib seaborn jupyter
+   pip install -r requirements.txt
    ```
-
-4. Abra os notebooks ou scripts para iniciar a análise:  
-   ```bash
-   jupyter notebook
-   ```
-   Em seguida, navegue até os arquivos presentes ou crie os seus para aplicar os conceitos da oficina.
+5. Execute os notebooks ou scripts conforme planejado para estudo e análise.
 
 ---
 
 ## Endpoints
 
-_Não se aplicável: este repositório não contém API._
+Não aplicável neste projeto.
 
 ---
 
 ## Testes
 
-Atualmente, este projeto não inclui uma suíte automatizada de testes.  
-
-Futuros desenvolvimentos poderão incorporar testes unitários para funções de transformação e análise de dados, assegurando a integridade dos processos analíticos.
-
----
-
-## Deploy
-
-Por se tratar de um ambiente educacional local focado em notebooks e scripts, o deploy consiste no uso local do projeto após configurar as dependências.  
-
-Para facilitar a portabilidade futura, está prevista a criação de containers Docker e possíveis integrações com plataformas em nuvem para disponibilização remota.
+Não há estrutura formal de testes implementada atualmente. Recomenda-se inclusão de testes unitários para validação de funções de transformação e análise conforme o projeto evoluir.
 
 ---
 
 ## Segurança
 
-Este projeto não envolve autenticação, autorização ou manipulação de dados sensíveis. Todavia, recomenda-se boas práticas no gerenciamento dos ambientes Python para evitar vulnerabilidades nas dependências.
+Não aplicável, visto que se trata de um projeto educacional local sem interface exposta ou transações protegidas.
+
+---
+
+## Deploy
+
+Projeto previsto para execução local em ambiente de desenvolvimento Python ou Jupyter Notebook. Não possui processo formal de deploy automatizado ou em ambiente cloud até o momento.
 
 ---
 
 ## Melhorias Futuras
 
-- Estruturação completa do projeto com diretórios para dados, scripts, notebooks e relatórios.
-- Criação de exemplos práticos organizados por níveis de dificuldade.
-- Implementação de scripts automatizados para pré-processamento e análise via linha de comando.
-- Desenvolvimento de testes unitários e de integração.
-- Configuração de container Docker para ambiente padronizado e facilitado.
-- Publicação de notebooks em plataformas colaborativas para acesso remoto.
-- Integração com APIs públicas de dados para análises dinâmicas.
+- Inclusão de notebooks exemplificando etapas da análise com dados reais.
+- Implementação de scripts automatizados para pré-processamento e geração de relatórios.
+- Desenvolvimento de testes unitários para garantir a qualidade do código.
+- Adição de exemplos de machine learning básicos para complementação do conteúdo.
+- Configuração de ambiente Docker para facilitar setup e execução consistente.
+- Documentação mais robusta com exemplos visuais e explicações detalhadas.
 
 ---
 
-## Contribuição
+## 👨‍💻 Autor
 
-Contribuições são bem-vindas! Para colaborar com o projeto:
-
-1. Faça um fork do repositório.  
-2. Crie uma branch para sua feature ou correção:  
-   ```bash
-   git checkout -b feature/nome-da-feature
-   ```  
-3. Realize suas alterações com commits claros e descritivos.  
-4. Abra um pull request descrevendo suas modificações e o motivo da contribuição.  
-
-Por favor, siga as boas práticas de código e documente bem as alterações.
-
----
-
-## Licença
-
-Este projeto encontra-se licenciado sob a [Licença MIT](./LICENSE).  
-
-Sinta-se livre para usar, modificar e distribuir este conteúdo com os devidos créditos.
-
----
+Desenvolvido por **Hítalon Saimon Santos Silva**  
+GitHub: https://github.com/H-Saimon
